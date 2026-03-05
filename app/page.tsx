@@ -204,7 +204,7 @@ export default function Home() {
             <ul className="membership-perks">
               {['Dedicated concierge for all your property needs','Regular scheduled home inspections','Priority access to trusted vendors and contractors','Preventive maintenance planning and execution','Seasonal home preparation services','30+ years of expertise working for you'].map((p,i) => <li key={i}>{p}</li>)}
             </ul>
-            <a href="https://www.goodlettpropertyconcierge.com/services-store/p/goodlett-property-concierge-membership/checkout" className="btn-primary" target="_blank" style={{fontSize:'0.85rem',padding:'1.1rem 2.8rem'}}>Become a Member</a>
+            <a href="https://www.goodlettpropertyconcierge.com/services-store/p/goodlett-property-concierge-membership" className="btn-primary" target="_blank" style={{fontSize:'0.85rem',padding:'1.1rem 2.8rem'}}>Become a Member</a>
           </div>
         </div>
       </section>
