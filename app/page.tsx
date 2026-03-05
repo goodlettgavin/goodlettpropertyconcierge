@@ -225,13 +225,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="contact-form">
-          <input type="text" placeholder="Your Name"/>
-          <input type="email" placeholder="Email Address"/>
-          <input type="tel" placeholder="Phone Number"/>
-          <textarea placeholder="Tell us about your property..."></textarea>
-          <button className="btn-primary" style={{border:'none',cursor:'pointer',textAlign:'center'}} onClick={() => alert("Thank you! We'll be in touch soon.")}>Send Message</button>
-        </div>
+        <form className="contact-form" onSubmit={(e) => { e.preventDefault(); const form = e.target as HTMLFormElement; fetch('https://formspree.io/f/mpqyalon', { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } }).then(r => { if (r.ok) { alert("Thank you! We will be in touch soon."); form.reset(); } else { alert("Oops! Something went wrong."); } }); }}>
+          <input type="text" name="name" placeholder="Your Name" required/>
+          <input type="email" name="email" placeholder="Email Address" required/>
+          <input type="tel" name="phone" placeholder="Phone Number"/>
+          <textarea name="message" placeholder="Tell us about your property..."></textarea>
+          <button type="submit" className="btn-primary" style={{border:'none',cursor:'pointer',textAlign:'center'}}>Send Message</button>
+        </form>
       </section>
 
       <footer>
