@@ -37,9 +37,9 @@ export default function Home() {
         .hero-stat { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(247,243,237,0.1); display: flex; gap: 3rem; }
         .stat-num { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; font-weight: 300; color: var(--gold-light); line-height: 1; }
         .stat-label { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: #c8bfa8; margin-top: 0.3rem; }
-        .hero-right { background: #111100; display: flex; align-items: center; justify-content: center; padding: 8rem 4rem 4rem; }
-        .hero-visual { width: 100%; max-width: 420px; aspect-ratio: 3/4; background: var(--charcoal); position: relative; overflow: hidden; }
-        .hero-visual-bg { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(181,146,76,0.15) 0%, transparent 50%), url('/hero-home.jpg') center/cover; }
+        .hero-right { background: #111100; display: flex; align-items: stretch; justify-content: stretch; padding: 0; }
+        .hero-visual { width: 100%; max-width: 100%; aspect-ratio: unset; height: 100%; background: var(--charcoal); position: relative; overflow: hidden; }
+        .hero-visual-bg { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(181,146,76,0.1) 0%, transparent 50%), url('/hero-home.jpg') center/cover; background-size: cover; background-position: center; }
         .hero-visual-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(28,28,26,0.7) 0%, transparent 60%); }
         .hero-visual-badge { position: absolute; bottom: 2rem; left: 2rem; right: 2rem; background: rgba(0,0,0,0.95); padding: 1.5rem; backdrop-filter: blur(8px); }
         .badge-title { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-weight: 600; color: #c8aa6f; margin-bottom: 0.3rem; }
