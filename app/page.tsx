@@ -113,7 +113,7 @@ export default function Home() {
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 
       <nav>
-        <a href="#" className="nav-logo"><img src="/GPC.jpg" alt="Goodlett Property Concierge" style={{height:"60px", width:"auto"}}/></a>
+        <a href="#" className="nav-logo"><img src="/GPC.png" alt="Goodlett Property Concierge" style={{height:"60px", width:"auto"}}/></a>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
@@ -235,7 +235,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="footer-logo"><img src="/GPC.jpg" alt="Goodlett Property Concierge" style={{height:"50px", width:"auto"}}/></div>
+        <div className="footer-logo"><img src="/GPC.png" alt="Goodlett Property Concierge" style={{height:"50px", width:"auto"}}/></div>
         <div className="footer-copy">© 2026 Goodlett Property Concierge. All rights reserved.</div>
       </footer>
     </>
