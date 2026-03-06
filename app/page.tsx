@@ -162,7 +162,7 @@ export default function Home() {
           </div>
         </div>
         <div className="about-image">
-          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="Beautiful home exterior"/>
+          <img src="/about-home.jpg" alt="Beautiful home exterior"/>
           <div className="about-image-accent"></div>
         </div>
       </section>
