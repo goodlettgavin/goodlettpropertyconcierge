@@ -1,4 +1,4 @@
-"use client";
+\"use client";
 
 export default function Home() {
   return (
@@ -127,14 +127,14 @@ export default function Home() {
         <div className="hero-left">
           <div className="hero-eyebrow">Louisville, Kentucky</div>
           <h1 className="hero-title">Simplify<br/><em>Home Care.</em><br/>Protect Your<br/>Investment.</h1>
-          <p className="hero-desc">Your home deserves expert attention. Goodlett Property Concierge delivers comprehensive maintenance management so you can enjoy your property — not manage it.</p>
+          <p className="hero-desc">For $95/month, we schedule and manage all included services, provide quarterly inspections, and deliver regular updates — so you can enjoy your home, not manage it.</p>
           <div className="hero-btns">
             <a href="#membership" className="btn-primary">Join Our Service</a>
             <a href="#services" className="btn-outline">Explore Services</a>
           </div>
           <div className="hero-stat">
+            <div><div className="stat-num">$95</div><div className="stat-label">Per Month</div></div>
             <div><div className="stat-num">30+</div><div className="stat-label">Years Experience</div></div>
-            <div><div className="stat-num">100%</div><div className="stat-label">Dedicated Service</div></div>
           </div>
         </div>
         <div className="hero-right">
@@ -152,13 +152,13 @@ export default function Home() {
       <section className="about" id="about">
         <div>
           <div className="section-label">About Us</div>
-          <h2 className="section-title">Over <em>30 Years</em> of Home Expertise</h2>
-          <p className="section-body">At Goodlett Property Concierge, we have spent over three decades mastering every aspect of home maintenance. Our service is designed to protect your investment and simplify property ownership.</p>
+          <h2 className="section-title">Built on <em>Trust,</em> Reliability & Results</h2>
+          <p className="section-body">We aim to build lasting relationships with our clients founded on trust, reliability, and consistent performance. Whether it's routine maintenance or an emergency repair, you can depend on us for prompt, professional, and reliable solutions.</p>
           <div className="about-features">
-            <div className="feature-item"><div className="feature-num">30+</div><div className="feature-text">Years of combined home maintenance expertise</div></div>
-            <div className="feature-item"><div className="feature-num">1</div><div className="feature-text">Single point of contact for all your home needs</div></div>
-            <div className="feature-item"><div className="feature-num">All</div><div className="feature-text">Aspects of property care covered under one roof</div></div>
-            <div className="feature-item"><div className="feature-num">365</div><div className="feature-text">Days a year protecting your most valuable asset</div></div>
+            <div className="feature-item"><div className="feature-num">$95</div><div className="feature-text">Per month — all labor & materials included</div></div>
+            <div className="feature-item"><div className="feature-num">4x</div><div className="feature-text">Quarterly home inspections — nothing overlooked</div></div>
+            <div className="feature-item"><div className="feature-num">2x</div><div className="feature-text">Seasonal gutter cleaning — fall & spring</div></div>
+            <div className="feature-item"><div className="feature-num">Free</div><div className="feature-text">Estimates on any additional repairs from licensed contractors</div></div>
           </div>
         </div>
         <div className="about-image">
@@ -177,12 +177,12 @@ export default function Home() {
         </div>
         <div className="services-grid">
           {[
-            {icon:'⌂', name:'Preventive Maintenance', desc:'Scheduled inspections and maintenance to prevent costly repairs before they happen.'},
-            {icon:'🔧', name:'Repairs & Handyman', desc:'From minor fixes to major repairs, we handle it all with skilled professionals.'},
-            {icon:'📋', name:'Home Inspections', desc:'Thorough property assessments to keep your home in peak condition year-round.'},
-            {icon:'🌿', name:'Seasonal Services', desc:'Tailored care for every season — spring prep, summer upkeep, fall and winter readiness.'},
-            {icon:'📞', name:'Vendor Coordination', desc:'We manage and coordinate all contractors and vendors, saving you time and hassle.'},
-            {icon:'🏠', name:'Property Oversight', desc:'Full oversight and monitoring of your property, especially when you\'re away.'},
+            {icon:'⌂', name:'Quarterly Home Inspections', desc:'Detailed quarterly inspections to catch issues early and keep your home in peak condition.'},
+            {icon:'🔧', name:'Gutter Cleaning', desc:'Fall and spring gutter cleanings to protect your home from water damage year-round.'},
+            {icon:'📋', name:'HVAC Filter Changes', desc:'Four-inch filters changed 2x annually, one-inch filters changed 4x annually.'},
+            {icon:'🌿', name:'Exterior Pest Control', desc:'Three exterior pest control treatments annually to keep your property protected.'},
+            {icon:'📞', name:'Smoke Alarm & Garage Door', desc:'Annual smoke alarm maintenance and garage door service included in every plan.'},
+            {icon:'🏠', name:'Hose Spigot Covers', desc:'Installation each fall and removal each spring to prevent pipe damage in cold weather.'},
           ].map((s, i) => (
             <div className="service-card" key={i}>
               <div className="service-icon">{s.icon}</div>
@@ -199,8 +199,8 @@ export default function Home() {
           <h2 className="section-title">One Membership.<br/><em>Total Peace of Mind.</em></h2>
           <p className="section-body">Join Goodlett Property Concierge and experience a new standard of home care — attentive, expert, and always there when you need us.</p>
           <div className="membership-card">
-            <div className="membership-price">Join Today</div>
-            <div className="membership-period">Annual Membership Available</div>
+            <div className="membership-price"><span>$</span>95<span style={{fontSize:'1.2rem', verticalAlign:'middle'}}>/mo</span></div>
+            <div className="membership-period">All labor & materials included</div>
             <ul className="membership-perks">
               {['Dedicated concierge for all your property needs','Regular scheduled home inspections','Priority access to trusted vendors and contractors','Preventive maintenance planning and execution','Seasonal home preparation services','30+ years of expertise working for you'].map((p,i) => <li key={i}>{p}</li>)}
             </ul>
@@ -220,8 +220,12 @@ export default function Home() {
               <div><div className="contact-item-label">Website</div><div className="contact-item-value">goodlettpropertyconcierge.com</div></div>
             </div>
             <div className="contact-item">
+              <div className="contact-item-icon">📞</div>
+              <div><div className="contact-item-label">Phone</div><div className="contact-item-value">502-345-9060</div></div>
+            </div>
+            <div className="contact-item">
               <div className="contact-item-icon">📍</div>
-              <div><div className="contact-item-label">Location</div><div className="contact-item-value">Louisville, Kentucky</div></div>
+              <div><div className="contact-item-label">Address</div><div className="contact-item-value">2213 Arnold Palmer Blvd, Louisville, KY</div></div>
             </div>
           </div>
         </div>
