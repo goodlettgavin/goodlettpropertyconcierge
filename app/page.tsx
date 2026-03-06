@@ -39,7 +39,7 @@ export default function Home() {
         .stat-label { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: #c8bfa8; margin-top: 0.3rem; }
         .hero-right { background: #111100; display: flex; align-items: center; justify-content: center; padding: 8rem 4rem 4rem; }
         .hero-visual { width: 100%; max-width: 420px; aspect-ratio: 3/4; background: var(--charcoal); position: relative; overflow: hidden; }
-        .hero-visual-bg { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(181,146,76,0.15) 0%, transparent 50%), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80') center/cover; }
+        .hero-visual-bg { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(181,146,76,0.15) 0%, transparent 50%), url('/hero-home.jpg') center/cover; }
         .hero-visual-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(28,28,26,0.7) 0%, transparent 60%); }
         .hero-visual-badge { position: absolute; bottom: 2rem; left: 2rem; right: 2rem; background: rgba(0,0,0,0.95); padding: 1.5rem; backdrop-filter: blur(8px); }
         .badge-title { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-weight: 600; color: #c8aa6f; margin-bottom: 0.3rem; }
@@ -113,7 +113,7 @@ export default function Home() {
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 
       <nav>
-        <a href="#" className="nav-logo"><img src="/GPC.png" alt="Goodlett Property Concierge" style={{height:"60px", width:"auto"}}/></a>
+        <a href="#" className="nav-logo"><img src="/GPC.png" alt="Goodlett Property Concierge" style={{height:"90px", width:"auto"}}/></a>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
@@ -235,7 +235,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="footer-logo"><img src="/GPC.png" alt="Goodlett Property Concierge" style={{height:"50px", width:"auto"}}/></div>
+        <div className="footer-logo"><img src="/GPC.png" alt="Goodlett Property Concierge" style={{height:"75px", width:"auto"}}/></div>
         <div className="footer-copy">© 2026 Goodlett Property Concierge. All rights reserved.</div>
       </footer>
     </>
