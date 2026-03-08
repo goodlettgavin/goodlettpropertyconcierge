@@ -173,7 +173,7 @@ export default function Home() {
             <div className="section-label" style={{color:'var(--gold)'}}>What We Do</div>
             <h2 className="section-title" style={{color:'var(--cream)'}}>Comprehensive<br/><em style={{color:'var(--gold-light)'}}>Property Care</em></h2>
           </div>
-          <a href="https://goodlettpropertyconcierge.com/services-store" className="btn-primary" target="_blank">View All Services</a>
+          <a href="https://goodlettpropertyconcierge.squarespace.com/services-store" className="btn-primary" target="_blank">View All Services</a>
         </div>
         <div className="services-grid">
           {[
@@ -204,7 +204,7 @@ export default function Home() {
             <ul className="membership-perks">
               {['Dedicated concierge for all your property needs','Regular scheduled home inspections','Priority access to trusted vendors and contractors','Preventive maintenance planning and execution','Seasonal home preparation services','30+ years of expertise working for you'].map((p,i) => <li key={i}>{p}</li>)}
             </ul>
-            <a href="https://www.goodlettpropertyconcierge.com/services-store/p/goodlett-property-concierge-membership" className="btn-primary" target="_blank" style={{fontSize:'0.85rem',padding:'1.1rem 2.8rem'}}>Become a Member</a>
+            <a href="https://goodlettpropertyconcierge.squarespace.com/services-store/p/goodlett-property-concierge-membership" className="btn-primary" target="_blank" style={{fontSize:'0.85rem',padding:'1.1rem 2.8rem'}}>Become a Member</a>
           </div>
         </div>
       </section>
