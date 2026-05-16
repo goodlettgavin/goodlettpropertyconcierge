@@ -171,9 +171,9 @@ export default function Home() {
         <div className="services-header">
           <div>
             <div className="section-label" style={{color:'var(--gold)'}}>What We Do</div>
-            <h2 className="section-title" style={{color:'#f0e8d8'}}>Comprehensive<br/><em style={{color:'var(--gold-light)'}}>Property Care</em></h2>
+            <h2 className="section-title" style={{color:'#e8dcc8'}}>Comprehensive<br/><em style={{color:'var(--gold-light)'}}>Property Care</em></h2>
           </div>
-          <a href="https://goodlettpropertycocierge.squarespace.com/services-store" className="btn-primary" target="_blank">View All Services</a>
+          <a href="#membership" className="btn-primary" target="_blank">View All Services</a>
         </div>
         <div className="services-grid">
           {[
@@ -204,7 +204,7 @@ export default function Home() {
             <ul className="membership-perks">
               {['Dedicated concierge for all your property needs','Regular scheduled home inspections','Priority access to trusted vendors and contractors','Preventive maintenance planning and execution','Seasonal home preparation services','30+ years of expertise working for you'].map((p,i) => <li key={i}>{p}</li>)}
             </ul>
-            <a href="https://goodlettpropertycocierge.squarespace.com/services-store/p/goodlett-property-concierge-membership" className="btn-primary" target="_blank" style={{fontSize:'0.85rem',padding:'1.1rem 2.8rem'}}>Become a Member</a>
+            <button className="btn-primary" style={{fontSize:'0.85rem',padding:'1.1rem 2.8rem',border:'none',cursor:'pointer'}} onClick={async () => { const res = await fetch('/api/checkout', {method:'POST'}); const data = await res.json(); if(data.url) window.location.href = data.url; else alert('Something went wrong. Please try again.');}}>Become a Member</button>
           </div>
         </div>
       </section>
