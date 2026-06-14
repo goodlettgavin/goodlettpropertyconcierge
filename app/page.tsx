@@ -1,5 +1,5 @@
 "use client";
- 
+
 export default function Home() {
   return (
     <>
@@ -204,7 +204,7 @@ export default function Home() {
             <ul className="membership-perks">
               {['Dedicated concierge for all your property needs','Regular scheduled home inspections','Priority access to trusted vendors and contractors','Preventive maintenance planning and execution','Seasonal home preparation services','30+ years of expertise working for you'].map((p,i) => <li key={i}>{p}</li>)}
             </ul>
-            <button className="btn-primary" style={{fontSize:'0.85rem',padding:'1.1rem 2.8rem',border:'none',cursor:'pointer'}} onClick={async () => { const res = await fetch('/api/checkout', {method:'POST'}); const data = await res.json(); if(data.url) window.location.href = data.url; else alert('Something went wrong. Please try again.');}}>Become a Member</button>
+            <a href="https://buy.stripe.com/14AcN5eag17E12l4OdfrW00" className="btn-primary" target="_blank" style={{fontSize:'0.85rem',padding:'1.1rem 2.8rem',display:'inline-block'}}>Become a Member</a>
           </div>
         </div>
       </section>
