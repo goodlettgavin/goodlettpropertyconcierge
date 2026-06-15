@@ -178,7 +178,7 @@ export default function Home() {
         <div className="services-grid">
           {[
             {icon:'⌂', name:'Quarterly Home Inspections', desc:'Detailed quarterly inspections to catch issues early and keep your home in peak condition.'},
-            {icon:'🔧', name:'Gutter Cleaning', desc:'Fall and spring gutter cleanings to protect your home from water damage year-round.'},
+            {icon:'🔧', name:'Gutter Cleaning — OR — Dryer Vent Cleaning', desc:'Fall and spring gutter cleanings to protect your home from water damage, or dryer vent cleaning to prevent fire hazards.'},
             {icon:'📋', name:'HVAC Filter Changes', desc:'Four-inch filters changed 2x annually, one-inch filters changed 4x annually.'},
             {icon:'🌿', name:'Exterior Pest Control', desc:'Three exterior pest control treatments annually to keep your property protected.'},
             {icon:'📞', name:'Smoke Alarm & Garage Door', desc:'Annual smoke alarm maintenance and garage door service included in every plan.'},
