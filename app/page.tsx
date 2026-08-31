@@ -127,14 +127,14 @@ export default function Home() {
         <div className="hero-left">
           <div className="hero-eyebrow">Louisville, Kentucky</div>
           <h1 className="hero-title">Simplify<br/><em>Home Care.</em><br/>Protect Your<br/>Investment.</h1>
-          <p className="hero-desc">For $95/month, we schedule and manage all included services, provide quarterly inspections, and deliver regular updates — so you can enjoy your home, not manage it.</p>
+          <p className="hero-desc">Serving the Louisville area for 35 years with hundreds of satisfied customers. Over $1,750 in services for just $95/month. Let us handle your basic home maintenance needs.</p>
           <div className="hero-btns">
             <a href="#membership" className="btn-primary">Join Our Service</a>
             <a href="#services" className="btn-outline">Explore Services</a>
           </div>
           <div className="hero-stat">
             <div><div className="stat-num">$95</div><div className="stat-label">Per Month</div></div>
-            <div><div className="stat-num">30+</div><div className="stat-label">Years Experience</div></div>
+            <div><div className="stat-num">35</div><div className="stat-label">Years Experience</div></div>
           </div>
         </div>
         <div className="hero-right">
@@ -152,13 +152,13 @@ export default function Home() {
       <section className="about" id="about">
         <div>
           <div className="section-label">About Us</div>
-          <h2 className="section-title">Built on <em>Trust,</em> Reliability & Results</h2>
-          <p className="section-body">We aim to build lasting relationships with our clients founded on trust, reliability, and consistent performance. Whether it's routine maintenance or an emergency repair, you can depend on us for prompt, professional, and reliable solutions.</p>
+          <h2 className="section-title">Serving Louisville for <em>35 Years</em></h2>
+          <p className="section-body">We have proudly served the Louisville area for 35 years with hundreds of satisfied customers. Our $95/month basic plan delivers over $1,750 in annual home maintenance services — saving you $610 compared to scheduling each service individually. Let us work out a schedule that is convenient for you.</p>
           <div className="about-features">
-            <div className="feature-item"><div className="feature-num">$95</div><div className="feature-text">Per month — all labor & materials included</div></div>
-            <div className="feature-item"><div className="feature-num">4x</div><div className="feature-text">Quarterly home inspections — nothing overlooked</div></div>
-            <div className="feature-item"><div className="feature-num">2x</div><div className="feature-text">Seasonal gutter cleaning — fall & spring</div></div>
-            <div className="feature-item"><div className="feature-num">Free</div><div className="feature-text">Estimates on any additional repairs from licensed contractors</div></div>
+            <div className="feature-item"><div className="feature-num">$95</div><div className="feature-text">Per month — over $1,750 in services included</div></div>
+            <div className="feature-item"><div className="feature-num">$610</div><div className="feature-text">Saved annually vs. scheduling services separately</div></div>
+            <div className="feature-item"><div className="feature-num">35</div><div className="feature-text">Years serving Louisville homeowners</div></div>
+            <div className="feature-item"><div className="feature-num">100s</div><div className="feature-text">Of satisfied customers in the Louisville area</div></div>
           </div>
         </div>
         <div className="about-image">
@@ -177,12 +177,12 @@ export default function Home() {
         </div>
         <div className="services-grid">
           {[
-            {icon:'⌂', name:'Quarterly Home Inspections', desc:'Detailed quarterly inspections to catch issues early and keep your home in peak condition.'},
-            {icon:'🔧', name:'Gutter Cleaning — OR — Dryer Vent Cleaning', desc:'Fall and spring gutter cleanings to protect your home from water damage, or dryer vent cleaning to prevent fire hazards.'},
-            {icon:'📋', name:'HVAC Filter Changes', desc:'Four-inch filters changed 2x annually, one-inch filters changed 4x annually.'},
-            {icon:'🌿', name:'Exterior Pest Control', desc:'Three exterior pest control treatments annually to keep your property protected.'},
-            {icon:'📞', name:'Smoke Alarm & Garage Door', desc:'Annual smoke alarm maintenance and garage door service included in every plan.'},
-            {icon:'🏠', name:'Hose Spigot Covers', desc:'Installation each fall and removal each spring to prevent pipe damage in cold weather.'},
+            {icon:'⌂', name:'Smoke Detector Maintenance', desc:'Annual smoke detector battery replacement to keep your family safe. ($225 value)'},
+            {icon:'🔧', name:'Gutter Cleaning — OR — Dryer Vent Cleaning', desc:'Fall and spring gutter cleanings ($400–$500 value) — OR — one dryer vent line cleaning ($250 value).'},
+            {icon:'📋', name:'HVAC Filter Changes', desc:'Up to 4 filter changes per year based on manufacturer suggestions. ($300 value)'},
+            {icon:'🌿', name:'Exterior Pest Control', desc:'2 advanced pest control spray treatments on the perimeter of your home annually. ($400 value)'},
+            {icon:'📞', name:'Hose Spigot Covers', desc:'Spigot covers supplied and installed for winter months to prevent pipe damage. ($75 value)'},
+            {icon:'🏠', name:'Garage Door Lubricant', desc:'Annual garage door lubrication to keep your door running smoothly and quietly. ($50 value)'},
           ].map((s, i) => (
             <div className="service-card" key={i}>
               <div className="service-icon">{s.icon}</div>
@@ -200,10 +200,11 @@ export default function Home() {
           <p className="section-body">Join Goodlett Property Concierge and experience a new standard of home care — attentive, expert, and always there when you need us.</p>
           <div className="membership-card">
             <div className="membership-price"><span>$</span>95<span style={{fontSize:'1.2rem', verticalAlign:'middle'}}>/mo</span></div>
-            <div className="membership-period">All labor & materials included</div>
+            <div className="membership-period">Over $1,750 in services · Save $610 annually</div>
             <ul className="membership-perks">
-              {['Dedicated concierge for all your property needs','Regular scheduled home inspections','Priority access to trusted vendors and contractors','Preventive maintenance planning and execution','Seasonal home preparation services','30+ years of expertise working for you'].map((p,i) => <li key={i}>{p}</li>)}
+              {['Fall & spring gutter cleanings ($400–$500 value)','(1) Dryer vent line cleaning ($250 value)','Up to (4) HVAC filter changes per year ($300 value)','Smoke detector battery replacement yearly ($225 value)','(2) Exterior pest control spray treatments ($400 value)','Hose spigot covers supplied & installed ($75 value)','Garage door lubrication ($50 value)'].map((p,i) => <li key={i}>{p}</li>)}
             </ul>
+            <p style={{fontSize:'0.8rem', color:'#a09070', marginBottom:'1.5rem', fontStyle:'italic'}}>* Additional services available upon request.</p>
             <a href="https://buy.stripe.com/14AcN5eag17E12l4OdfrW00" className="btn-primary" target="_blank" style={{fontSize:'0.85rem',padding:'1.1rem 2.8rem',display:'inline-block'}}>Become a Member</a>
           </div>
         </div>
