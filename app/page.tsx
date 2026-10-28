@@ -127,7 +127,7 @@ export default function Home() {
         <div className="hero-left">
           <div className="hero-eyebrow">Louisville, Kentucky</div>
           <h1 className="hero-title">Simplify<br/><em>Home Care.</em><br/>Protect Your<br/>Investment.</h1>
-          <p className="hero-desc">Serving the Louisville area for 35 years with hundreds of satisfied customers. Over $1,750 in services for just $95/month. Let us handle your basic home maintenance needs.</p>
+          <p className="hero-desc">Serving the Louisville area with hundreds of satisfied customers. Over $1,750 in services for just $95/month. Let us handle your basic home maintenance needs.</p>
           <div className="hero-btns">
             <a href="#membership" className="btn-primary">Join Our Service</a>
             <a href="#services" className="btn-outline">Explore Services</a>
@@ -153,7 +153,7 @@ export default function Home() {
         <div>
           <div className="section-label">About Us</div>
           <h2 className="section-title">Serving Louisville for <em>35 Years</em></h2>
-          <p className="section-body">We have proudly served the Louisville area for 35 years with hundreds of satisfied customers. Our $95/month basic plan delivers over $1,750 in annual home maintenance services — saving you $610 compared to scheduling each service individually. Let us work out a schedule that is convenient for you.</p>
+          <p className="section-body">We have proudly served the Louisville area with hundreds of satisfied customers. Our $95/month basic plan delivers over $1,750 in annual home maintenance services — saving you $610 compared to scheduling each service individually. Let us work out a schedule that is convenient for you.</p>
           <div className="about-features">
             <div className="feature-item"><div className="feature-num">$95</div><div className="feature-text">Per month — over $1,750 in services included</div></div>
             <div className="feature-item"><div className="feature-num">$610</div><div className="feature-text">Saved annually vs. scheduling services separately</div></div>
