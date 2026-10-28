@@ -213,8 +213,8 @@ export default function Home() {
       <section className="contact" id="contact">
         <div>
           <div className="section-label" style={{color:'var(--gold)'}}>Get in Touch</div>
-          <h2 className="section-title" style={{color:'var(--cream)'}}>Let&apos;s Talk About<br/><em style={{color:'var(--gold-light)'}}>Your Home</em></h2>
-          <p className="section-body" style={{color:'rgba(247,243,237,0.5)'}}>Ready to simplify your home care? Reach out and we&apos;ll show you how Goodlett Property Concierge can protect your investment.</p>
+          <h2 className="section-title" style={{color:'var(--gold)'}}>Let&apos;s Talk About<br/><em style={{color:'#f0d98a'}}>Your Home</em></h2>
+          <p className="section-body" style={{color:'rgba(247,243,237,0.85)'}}>Ready to simplify your home care? Reach out and we&apos;ll show you how Goodlett Property Concierge can protect your investment.</p>
           <div className="contact-details">
             <div className="contact-item">
               <div className="contact-item-icon">🌐</div>
