@@ -76,7 +76,7 @@ export default function Home() {
         .membership-perks { list-style: none; display: flex; flex-direction: column; gap: 0.9rem; margin-bottom: 3rem; text-align: left; }
         .membership-perks li { font-size: 0.88rem; color: #c8aa6f; display: flex; align-items: center; gap: 0.75rem; }
         .membership-perks li::before { content: '✦'; color: var(--gold); font-size: 0.6rem; flex-shrink: 0; }
-        .contact { background: #1a1a1a; padding: 7rem 6rem; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+        .contact { background: #111100; padding: 7rem 6rem; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
         .contact-details { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1.5rem; }
         .contact-item { display: flex; align-items: flex-start; gap: 1rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(200,170,111,0.25); }
         .contact-item:last-child { border-bottom: none; }
