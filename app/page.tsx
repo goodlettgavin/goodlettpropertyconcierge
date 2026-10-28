@@ -153,9 +153,9 @@ export default function Home() {
         <div>
           <div className="section-label">About Us</div>
           <h2 className="section-title">Louisville's Trusted <em>Home Concierge</em></h2>
-          <p className="section-body">We have proudly served the Louisville area with hundreds of satisfied customers. Our $95/month basic plan delivers over $1,750 in annual home maintenance services — saving you $610 compared to scheduling each service individually. Let us work out a schedule that is convenient for you.</p>
+          <p className="section-body">We have proudly served the Louisville area with hundreds of satisfied customers. Our $95/month basic plan delivers over $1,750 in annual home maintenance services, saving you $610 compared to scheduling each service individually. Let us work out a schedule that is convenient for you.</p>
           <div className="about-features">
-            <div className="feature-item"><div className="feature-num">$95</div><div className="feature-text">Per month — over $1,750 in services included</div></div>
+            <div className="feature-item"><div className="feature-num">$95</div><div className="feature-text">Per month, over $1,750 in services included</div></div>
             <div className="feature-item"><div className="feature-num">$610</div><div className="feature-text">Saved annually vs. scheduling services separately</div></div>
             <div className="feature-item"><div className="feature-num">100s</div><div className="feature-text">Of homes maintained across Louisville</div></div>
             <div className="feature-item"><div className="feature-num">100s</div><div className="feature-text">Of satisfied customers in the Louisville area</div></div>
@@ -178,7 +178,7 @@ export default function Home() {
         <div className="services-grid">
           {[
             {icon:'⌂', name:'Smoke Detector Maintenance', desc:'Annual smoke detector battery replacement to keep your family safe. ($225 value)'},
-            {icon:'🔧', name:'Gutter Cleaning — OR — Dryer Vent Cleaning', desc:'Fall and spring gutter cleanings ($400–$500 value) — OR — one dryer vent line cleaning ($250 value).'},
+            {icon:'🔧', name:'Gutter Cleaning or Dryer Vent Cleaning', desc:'Fall and spring gutter cleanings ($400-$500 value) or one dryer vent line cleaning ($250 value).'},
             {icon:'📋', name:'HVAC Filter Changes', desc:'Up to 4 filter changes per year based on manufacturer suggestions. ($300 value)'},
             {icon:'🌿', name:'Exterior Pest Control', desc:'2 advanced pest control spray treatments on the perimeter of your home annually. ($400 value)'},
             {icon:'📞', name:'Hose Spigot Covers', desc:'Spigot covers supplied and installed for winter months to prevent pipe damage. ($75 value)'},
@@ -197,7 +197,7 @@ export default function Home() {
         <div className="membership-inner">
           <div className="section-label" style={{justifyContent:'center'}}>Membership</div>
           <h2 className="section-title">One Membership.<br/><em>Total Peace of Mind.</em></h2>
-          <p className="section-body">Join Goodlett Property Concierge and experience a new standard of home care — attentive, expert, and always there when you need us.</p>
+          <p className="section-body">Join Goodlett Property Concierge and experience a new standard of home care: attentive, expert, and always there when you need us.</p>
           <div className="membership-card">
             <div className="membership-price"><span>$</span>95<span style={{fontSize:'1.2rem', verticalAlign:'middle'}}>/mo</span></div>
             <div className="membership-period">Over $1,750 in services · Save $610 annually</div>
