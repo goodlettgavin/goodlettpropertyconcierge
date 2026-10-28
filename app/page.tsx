@@ -76,16 +76,16 @@ export default function Home() {
         .membership-perks { list-style: none; display: flex; flex-direction: column; gap: 0.9rem; margin-bottom: 3rem; text-align: left; }
         .membership-perks li { font-size: 0.88rem; color: #c8aa6f; display: flex; align-items: center; gap: 0.75rem; }
         .membership-perks li::before { content: '✦'; color: var(--gold); font-size: 0.6rem; flex-shrink: 0; }
-        .contact { background: var(--charcoal); padding: 7rem 6rem; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+        .contact { background: #1a1a1a; padding: 7rem 6rem; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
         .contact-details { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1.5rem; }
-        .contact-item { display: flex; align-items: flex-start; gap: 1rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(181,146,76,0.1); }
+        .contact-item { display: flex; align-items: flex-start; gap: 1rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(200,170,111,0.25); }
         .contact-item:last-child { border-bottom: none; }
-        .contact-item-icon { width: 36px; height: 36px; flex-shrink: 0; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 0.85rem; }
-        .contact-item-label { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.3rem; }
-        .contact-item-value { font-size: 0.9rem; color: #f0e8d8; }
+        .contact-item-icon { width: 36px; height: 36px; flex-shrink: 0; border: 1px solid var(--gold); display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 0.85rem; }
+        .contact-item-label { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: #e8c97a; margin-bottom: 0.3rem; }
+        .contact-item-value { font-size: 0.95rem; color: #ffffff; }
         .contact-form { display: flex; flex-direction: column; gap: 1rem; }
-        .contact-form input, .contact-form textarea { background: rgba(255,255,255,0.05); border: 1px solid rgba(181,146,76,0.2); color: #f0e8d8; padding: 1rem 1.2rem; font-family: 'DM Sans', sans-serif; font-size: 0.88rem; outline: none; transition: border-color 0.3s; resize: none; }
-        .contact-form input::placeholder, .contact-form textarea::placeholder { color: rgba(247,243,237,0.3); }
+        .contact-form input, .contact-form textarea { background: rgba(255,255,255,0.08); border: 1px solid rgba(200,170,111,0.4); color: #ffffff; padding: 1rem 1.2rem; font-family: 'DM Sans', sans-serif; font-size: 0.88rem; outline: none; transition: border-color 0.3s; resize: none; }
+        .contact-form input::placeholder, .contact-form textarea::placeholder { color: rgba(255,255,255,0.45); }
         .contact-form input:focus, .contact-form textarea:focus { border-color: var(--gold); }
         .contact-form textarea { height: 120px; }
         footer { background: #000000; padding: 3rem 6rem; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(181,146,76,0.1); }
