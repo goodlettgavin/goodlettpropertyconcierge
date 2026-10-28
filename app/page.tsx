@@ -134,7 +134,7 @@ export default function Home() {
           </div>
           <div className="hero-stat">
             <div><div className="stat-num">$95</div><div className="stat-label">Per Month</div></div>
-            <div><div className="stat-num">35</div><div className="stat-label">Years Experience</div></div>
+            <div><div className="stat-num">6+</div><div className="stat-label">Services Included</div></div>
           </div>
         </div>
         <div className="hero-right">
@@ -152,12 +152,12 @@ export default function Home() {
       <section className="about" id="about">
         <div>
           <div className="section-label">About Us</div>
-          <h2 className="section-title">Serving Louisville for <em>35 Years</em></h2>
+          <h2 className="section-title">Louisville's Trusted <em>Home Concierge</em></h2>
           <p className="section-body">We have proudly served the Louisville area with hundreds of satisfied customers. Our $95/month basic plan delivers over $1,750 in annual home maintenance services — saving you $610 compared to scheduling each service individually. Let us work out a schedule that is convenient for you.</p>
           <div className="about-features">
             <div className="feature-item"><div className="feature-num">$95</div><div className="feature-text">Per month — over $1,750 in services included</div></div>
             <div className="feature-item"><div className="feature-num">$610</div><div className="feature-text">Saved annually vs. scheduling services separately</div></div>
-            <div className="feature-item"><div className="feature-num">35</div><div className="feature-text">Years serving Louisville homeowners</div></div>
+            <div className="feature-item"><div className="feature-num">100s</div><div className="feature-text">Of homes maintained across Louisville</div></div>
             <div className="feature-item"><div className="feature-num">100s</div><div className="feature-text">Of satisfied customers in the Louisville area</div></div>
           </div>
         </div>
